@@ -11,48 +11,50 @@
 <!-- Latest Events Section -->
 <main>
 	<h2>Latest Events</h2>
-	<hr class="underline"></hr>
+	<div class="underline-container">
+		<hr class="underline"></hr>
+	</div>
 	
 	<section>
 		<div class="card">
 			<div class="card-image">
-				<img src="img/event3.png" alt="Card Image">
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/event3.png" alt="Card Image">
 			</div>
 		</div>
 		
 		<div class="card">
 			<div class="card-image">
-				<img src="img/event1.png" alt="Card Image">
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/event1.png" alt="Card Image">
 			</div>
 		</div>
 		
 		<div class="card">
 			<div class="card-image">
-				<img src="img/event2.png" alt="Card Image">
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/event2.png" alt="Card Image">
 			</div>
 		</div>
 		
 		<div class="card">
 			<div class="card-image">
-				<img src="img/event3.png" alt="Card Image">
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/event3.png" alt="Card Image">
 			</div>
 		</div>
 		
 		<div class="card">
 			<div class="card-image">
-				<img src="img/event4.png" alt="Card Image">
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/event4.png" alt="Card Image">
 			</div>
 		</div>
 		
 		<div class="card">
 			<div class="card-image">
-				<img src="img/event1.png" alt="Card Image">
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/event1.png" alt="Card Image">
 			</div>
 		</div>
 	</section>
 	
-	<div class="display-text">
-		<h2><a class="btn" href="#">View All Events</a></h2>
+	<div class="btn-container">
+		<a class="btn" href="#">View All Events</a>
 	</div>
 </main>
 

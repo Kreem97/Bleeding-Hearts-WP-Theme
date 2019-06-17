@@ -36,7 +36,7 @@
 	<nav>
 		<div id="logo-img">
 			<a href="index.php">
-				<img src="img/logo1.png" alt="Bleeding Hearts Logo"><p>Bleeding Hearts</p>
+				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/logo1.png" alt="Bleeding Hearts Logo"><p>Bleeding Hearts</p>
 			</a>
 		</div>
 		<ul>
