@@ -23,7 +23,7 @@
 				<h3>Follow us on</h3>
 				<div id="social-media-links">
 					<ul>
-						<li>
+						<!--li>
 							<a href="#">
 								<i class="fab fa-facebook"></i>
 							</a>
@@ -32,9 +32,9 @@
 							<a href="#">
 								<i class="fab fa-youtube"></i>
 							</a>
-						</li>
+						</li-->
 						<li>
-							<a href="#">
+							<a href="https://www.instagram.com/bleedingheartsinc/">
 								<i class="fab fa-instagram"></i>
 							</a>
 						</li>

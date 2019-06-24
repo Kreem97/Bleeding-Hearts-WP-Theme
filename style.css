@@ -7,10 +7,13 @@ Version: 1.0
 */
 
 /* COLORS: primary--#ff3a2f secondary--#fcdd83 */
+/* COLORS: primary--#fe0e0e secondary--#fcdd83 */
 
 body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
+	
+	/*background-color: rgba(0, 0, 0, 0.05);*/
 }
 
 p {
@@ -76,7 +79,7 @@ h3 {
 	flex-direction: column;
 	
 	color: white;
-	background-color: #ff3a2f;
+	background-color: #fe0e0e;
 }
 
 .btn {
@@ -89,8 +92,8 @@ h3 {
 }
 
 .btn:hover {
-	border: 8px solid #ff3a2f;
-	color: #ff3a2f;
+	border: 8px solid #fe0e0e;
+	color: #fe0e0e;
 }
 
 .btn-container {
@@ -106,6 +109,11 @@ h3 {
 }
 
 /*header*/
+.nav-container {
+	position: fixed;
+	width: 100%;
+}
+
 nav {
 	width: 100%;
 	height: 72px;
@@ -151,7 +159,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #ff3a2f;
+	color: #fe0e0e;
 }
 
 nav img{
@@ -170,12 +178,13 @@ nav img{
 
 #logo-img p {
 	font-size: 45px;
-	color: #ff3a2f;
+	color: #fe0e0e;
 	font-style: italic;
 }
 
 /*banner*/
 #banner {
+	padding-top: 80px;
 	height: 500px;
 	display: flex;
 	justify-content: center;
@@ -204,7 +213,6 @@ main section {
 
 .card {
 	align-self: center;
-	/**/
 }
 
 .card:hover {
@@ -213,7 +221,8 @@ main section {
 
 .card img {
 	max-width: 400px;
-	/**/
+	
+	box-shadow: 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .card-image {
@@ -240,9 +249,13 @@ footer a {
 	color: #fcdd83;
 }
 
+footer p {
+	font-size: 12px;
+}
+
 footer a:hover {
 	transition: 0.3s;
-	color: #ff3a2f;
+	color: #fe0e0e;
 }
 
 #left-footer {

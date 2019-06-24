@@ -18,41 +18,43 @@
 		</div>
 		<ul>
 			<li>
-				<a href="index.php">Home</a>
+				<a href="<?php echo site_url(''); ?>">Home</a>
 			</li>
 			<li>
-				<a href="#">Events</a>
+				<a href="<?php echo site_url('/events'); ?>">Events</a>
 			</li>
 			<li>
-				<a href="about.php">About</a>
+				<a href="<?php echo site_url('/about'); ?>">About</a>
 			</li>
 			<li>
-				<a href="#">Contact</a>
+				<a href="<?php echo site_url('/contact'); ?>">Contact</a>
 			</li>
 		</ul>
 	</div>
 	
 	<!-- Navigation Bar -->
-	<nav>
-		<div id="logo-img">
-			<a href="index.php">
-				<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/logo1.png" alt="Bleeding Hearts Logo"><p>Bleeding Hearts</p>
-			</a>
-		</div>
-		<ul>
-			<li>
-				<a href="index.php">Home</a>
-			</li>
-			<li>
-				<a href="#">Events</a>
-			</li>
-			<li>
-				<a href="about.php">About</a>
-			</li>
-			<li>
-				<a href="#">Contact</a>
-			</li>
-		</ul>
-	</nav>
-	
-	<hr class="break"></hr>
+	<div class="nav-container">
+		<nav>
+			<div id="logo-img">
+				<a href="index.php">
+					<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/logo.png" alt="Bleeding Hearts Logo"><p>Bleeding Hearts</p>
+				</a>
+			</div>
+			<ul>
+				<li>
+					<a href="<?php echo site_url(''); ?>">Home</a>
+				</li>
+				<li>
+					<a href="<?php echo site_url('/events'); ?>">Events</a>
+				</li>
+				<li>
+					<a href="<?php echo site_url('/about'); ?>">About</a>
+				</li>
+				<li>
+					<a href="<?php echo site_url('/contact'); ?>">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<hr class="break"></hr>
+	</div>
