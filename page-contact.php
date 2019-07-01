@@ -1,4 +1,7 @@
 <?php get_header(); ?>
 
-issa test
+<main>
+contact page
+</main>
+
 <?php get_footer(); ?>

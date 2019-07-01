@@ -4,16 +4,16 @@
 				<h3>Quick Links</h3>
 				<ul>
 					<li>
-						<a href="index.php">Home</a>
+						<a href="<?php echo site_url(''); ?>">Home</a>
 					</li>
 					<li>
-						<a href="#">Events</a>
+						<a href="<?php echo site_url('/events'); ?>">Events</a>
 					</li>
 					<li>
-						<a href="about.php">About</a>
+						<a href="<?php echo site_url('/about'); ?>">About</a>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<a href="<?php echo site_url('/contact'); ?>">Contact</a>
 					</li>
 				</ul>
 			</div>
