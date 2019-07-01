@@ -37,7 +37,7 @@
 		<nav>
 			<div id="logo-img">
 				<a href="index.php">
-					<img src="wp-content/themes/Bleeding-Hearts-WP-Theme/img/logo.png" alt="Bleeding Hearts Logo"><p>Bleeding Hearts</p>
+					<img src="wp-content/uploads/2018/06/BLEEDING-HEARTS-Small.png" alt="Bleeding Hearts Logo"><p>Bleeding Hearts</p>
 				</a>
 			</div>
 			<ul>
@@ -56,5 +56,5 @@
 			</ul>
 		</nav>
 		
-		<hr class="break"></hr>
+		<hr class="break">
 	</div>

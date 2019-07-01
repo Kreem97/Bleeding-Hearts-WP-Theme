@@ -1,6 +1,6 @@
 <?php
 
-// adding the CSS and JS filesize
+// Adding the CSS and JS filesize
 
 function bh_setup(){
 	wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:500&display=swap');
@@ -13,9 +13,12 @@ add_action('wp_enqueue_scripts', 'bh_setup');
 
 // Adding Theme Support
 
-/*
 function bh_init(){
-	add_theme_support();
-}*/
+	add_theme_support('post-thumbnails');
+	add_theme_support('title-tag');
+	add_theme_support('html5', array('comment-list', 'comment-form', 'search-form'));
+}
+
+add_action('after_setup_theme', 'bh_init');
 
 ?>
