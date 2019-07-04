@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<hr class="break">
-
 <!-- Latest Events Section -->
 <main>
 	<h2>Latest Events</h2>
@@ -33,7 +31,5 @@
 		<?php echo paginate_links(); ?>
 	</div>
 </main>
-
-<hr class="break">
 
 <?php get_footer(); ?>

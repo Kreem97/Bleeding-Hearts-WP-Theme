@@ -2,11 +2,9 @@
 
 <!-- Display Banner -->
 <div id="banner"></div>
-<hr class="break">
 <div class="display-text">
-	<h1>What the mind can conceive and believe, and the heart desires, you can achieve.</h1>
+	<h1>WHAT THE MIND CAN CONCEIVE AND BELIEVE, AND THE HEART DESIRES, YOU CAN ACHIEVE</h1>
 </div>
-<hr class="break">
 
 <!-- Latest Events Section -->
 <main>
@@ -46,7 +44,5 @@
 		<a class="btn" href="<?php echo site_url('/events'); ?>">View All Events</a>
 	</div>
 </main>
-
-<hr class="break">
 
 <?php get_footer(); ?>
