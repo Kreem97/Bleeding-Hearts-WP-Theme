@@ -191,7 +191,6 @@ nav img{
 
 /*banner*/
 #banner {
-	/*padding-top: 72px;*/
 	height: 500px;
 	display: flex;
 	justify-content: center;
@@ -202,6 +201,10 @@ nav img{
 	background-attachment: fixed;
 	background-position: center;
 	background-blend-mode: overlay;
+}
+
+#donate-btn {
+	display: none;
 }
 
 /*latest events section*/
@@ -386,7 +389,30 @@ footer a:hover {
 	}
 	
 	.display-text {
-		height: 200px;
+		height: 280px;
+	}
+	
+	.display-text h1 {
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	
+	#donate-btn {
+		display: flex;
+		justify-content: center;
+		height: 66px;
+	}
+	
+	#donate-btn a {
+		padding: 12px;
+		
+		font-size: 35px;
+		background-color: #fcdd83;
+		color: white;
 	}
 	
 	h1 {

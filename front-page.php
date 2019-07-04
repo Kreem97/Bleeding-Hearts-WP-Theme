@@ -3,7 +3,7 @@
 <!-- Display Banner -->
 <div id="banner"></div>
 <div class="display-text">
-	<h1>WHAT THE MIND CAN CONCEIVE AND BELIEVE, AND THE HEART DESIRES, YOU CAN ACHIEVE</h1>
+	<h1><div>WHAT THE MIND CAN CONCEIVE AND BELIEVE, AND THE HEART DESIRES, YOU CAN ACHIEVE</div><div id="donate-btn"><a href="#">DONATE</a></div></h1>
 </div>
 
 <!-- Latest Events Section -->
