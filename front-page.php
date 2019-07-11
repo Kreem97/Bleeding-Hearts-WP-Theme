@@ -28,9 +28,7 @@
 	?>
 	
 	<div class="card">
-		<div class="card-image">
-			<img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="Card Image">
-		</div>
+		<img class="card-img" src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="Card Image">
 	</div>
 	
 	<?php
