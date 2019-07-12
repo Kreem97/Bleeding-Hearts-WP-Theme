@@ -35,13 +35,13 @@
 								</a>
 							</li-->
 							<li>
-								<a href="https://www.instagram.com/bleedingheartsinc/">
+								<a href="https://www.instagram.com/bleedingheartsinc/" target="_blank">
 									<i class="fab fa-instagram"></i>
 								</a>
 							</li>
 						</ul>
 					</div>
-					<p>Website developed by <a href="https://github.com/Kreem97">Kareem Hunte</a></p>
+					<p>Website developed by <a href="https://github.com/Kreem97" target="_blank">Kareem Hunte</a></p>
 				</div>
 			</div>
 		</div>
