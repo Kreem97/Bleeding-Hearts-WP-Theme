@@ -5,7 +5,7 @@
 		<div class="display-text">
 			<h1><div>WHAT THE MIND CAN CONCEIVE AND BELIEVE, AND THE HEART DESIRES, YOU CAN ACHIEVE</div><div id="donate-btn"><a href="#">DONATE</a></div></h1>
 		</div>
-		<hr/>
+		<hr class="mobile-hide"/>
 		<div class="about-top-container">
 			<div class="about-left-container">
 				<div class="about-desc about-desc-gold" id="desc-1">
@@ -15,9 +15,14 @@
 				<div class="about-desc about-desc-quote heading">"This one step - choosing a goal and sticking to it - changes everything"<br/>-Scott Reed</div>
 				<hr/>
 				<div class="about-desc about-desc-gold" id="desc-2">
-					<div>
-						<div id="bio-img-container"><img id="bio-img" src="http://bleedingheartsinc.com/wp-content/uploads/2019/07/biopic.png"></div>
-						<div id="bio-heading"><div></div><div>Founder / CEO</div><div></div></div>
+					<div id="about-bio">
+						<div id="about-bio-img-container">
+							<img src="http://bleedingheartsinc.com/wp-content/uploads/2019/07/biopic.png">
+						</div>
+						<div id="about-bio-heading">
+							<div id="about-bio-name">Shawina Hunte</div>
+							<div id="about-bio-title">Founder / CEO</div>
+						</div>
 					</div>
 					<div>
 						Shawina Hunte is a woman of strength and character; she’s always been committed to a life in service to the community with a focus on the less fortunate and mentoring woman of all ages.  Shawina is a native of Guyana, who moved with her family to New York City at the tender age of three. She is the second to oldest child of six children and had to learn at early age how to serve and be a role model helping her parents with her siblings as well as a host of nieces, nephews and cousins.  Shawina is a constant support to many.
@@ -30,6 +35,7 @@
 					</div>
 				</div>
 			</div>
+			<hr class="mobile-show"/>
 			<div class="about-right-container">
 				<div class="about-desc about-desc-red heading" id="desc-4-head">Our services include:</div>
 				<div class="about-desc about-desc-gold" id="desc-4-body">
@@ -46,8 +52,8 @@
 				<hr/>
 				<div class="about-desc about-desc-quote heading">"My flesh and my heart faileth: but God is the strength of my heart, and my portion forever."<br/>Psalms 73:26</div>
 				<hr/>
-				<div class="about-desc about-desc-gold heading" id="desc-5-head">We will address  your goals for:</div>
-				<div class="about-desc about-desc-red" id="desc-5-body">
+				<div class="about-desc about-desc-red heading" id="desc-5-head">We will address  your goals for:</div>
+				<div class="about-desc about-desc-gold" id="desc-5-body">
 					<ul>
 						<li>- Financial Planning</li>
 						<li>- Career Mentoring</li>
@@ -59,6 +65,7 @@
 			</div>
 		</div>
 	</div>
+	<hr class="mobile-hide"/>
 </main>
 
 <?php get_footer(); ?>

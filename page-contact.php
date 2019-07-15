@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main class="contact about-desc-gold">
 contact page
 </main>
 

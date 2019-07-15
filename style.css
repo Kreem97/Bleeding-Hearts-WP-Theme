@@ -239,8 +239,8 @@ main section {
 }
 
 /*footer*/
-footer {
-	padding: 40px 0 40px 0;
+.top-footer-container {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	
@@ -248,10 +248,22 @@ footer {
 	color: #fcdd83;
 }
 
-.outer-footer-container {
+.top-footer {
+	padding: 40px 0 40px 0;
 	width: 60%;
 	display: flex;
 	justify-content: flex-start;
+}
+
+.bottom-footer {
+	padding: 5px 0 5px 0;
+	width: 100%
+	height: auto;
+	text-align: center;
+	
+	font-size: 14px;
+	background-color: #fe0e0e;
+	color: white;
 }
 
 footer ul {
@@ -311,20 +323,17 @@ footer a:hover {
 }
 
 /* About page */
+.mobile-show {
+	display: none;
+}
+
 .about {
 	display: flex;
-	justify-content: center;
-}
-
-.about-container {
-	margin: 100px 0 10px 0;
-	padding: 0;
-	width: 80%;
-	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-.about-container hr {
+.about hr {
 	margin: 0;
 	padding: 0;
 	height: 10px;
@@ -333,22 +342,30 @@ footer a:hover {
 	border: 0;
 }
 
+.about-container {
+	margin: 100px 0 0 0;
+	padding: 0;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+}
+
 .about-top-container {
 	margin: 0;
-	padding: 0 20px 0 0;
+	padding: 0;
 	display: flex;
 	flex-direction: row;
 }
 
 .about-left-container {
 	margin: 0;
-	padding: 0 20px 0 0;
+	padding: 0;
 	width: 70%;
 }
 
 .about-right-container {
 	margin: 0 0 0 10px;
-	padding: 0 20px 0 20px;
+	padding: 0;
 	width: 30%;
 	height: inherit;
 	display: flex;
@@ -358,7 +375,7 @@ footer a:hover {
 .about-desc {
 	margin: 0px;
 	padding: 20px;
-	width: 100%;
+	width: auto;
 }
 
 .about-desc-red {
@@ -372,8 +389,7 @@ footer a:hover {
 
 .about-desc-quote {
 	text-align: center;
-	background-color: #fe0e0e;
-	color: white;
+	color: #fe0e0e;
 }
 
 .about-desc ul {
@@ -388,39 +404,54 @@ footer a:hover {
 	font-size: 20px;
 }
 
-#bio-img-container {
+#desc-1 {
+	text-align: justify;
+}
+
+#desc-2 {
+	display: flex;
+	flex-direction: column;
+	
+	text-align: justify;
+}
+
+#about-bio {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#about-bio-img-container {
 	float: left;
 	
 	min-width: 200px;
 }
 
-#bio-img {
+#about-bio-img-container img{
 	width: 100%;
 	height: 100%;
 }
 
-#desc-1 {}
-
-#desc-2 {
-	display: flex;
-	flex-direction: column;
-}
-
-#desc-2 div {
-	height: inherit;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-#bio-heading {
+#about-bio-heading {
 	width: 100%;
-	font-size: 45px;
-}
-
-#bio-heading div {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	
+	text-align: center;
+}
+
+#about-bio-name {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#about-bio-title {
+	font-size: 22px;
+}
+
+#desc-3-body {
+	text-align: justify;
 }
 
 #desc-3-head {}
@@ -432,6 +463,11 @@ footer a:hover {
 #desc-4-body {}
 
 #desc-5 {}
+
+/* Contact Page */
+.contact {
+	height: 900px;
+}
 
 /* Media Queries */
 @media (max-width: 1200px) {
@@ -544,21 +580,34 @@ footer a:hover {
 	}
 	
 	/* About page */
+	.mobile-hide {
+		display: none;
+	}
+	
+	.mobile-show {
+		display: block;
+	}
+	
+	.about-container {
+		width: 90%;
+	}
+	
 	.about-top-container {
-		padding: 0 40px 0 0;
-		display: flex;
+		width: 100%;
 		flex-direction: column;
 	}
 	
 	.about-left-container {
-		padding: 0;
 		width: 100%;
 	}
 	
 	.about-right-container {
-		margin: 10px 0 0 0;
-		padding: 0;
+		margin: 0;
 		width: 100%;
+	}
+	
+	.about-desc {
+		width: auto;
 	}
 }
 
@@ -635,11 +684,7 @@ footer a:hover {
 		font-size: 30px;
 	}
 	
-	footer {
-		height: 360px;
-	}
-	
-	.outer-footer-container {
+	.top-footer {
 		flex-direction: column;
 		justify-content: center;
 	}
@@ -663,16 +708,19 @@ footer a:hover {
 	
 	/* About page */
 	.about-container {
-		margin: 0 0 10px 0;
 		width: 100%;
 	}
 	
-	#desc-2 div {
+	.about-top-container {
+		padding: 0;
+	}
+	
+	#about-bio {
 		display: flex;
 		flex-direction: column;
 	}
 	
-	#bio-heading {
+	#about-bio-heading {
 		margin: 5px 0 5px 0;
 	}
 }
