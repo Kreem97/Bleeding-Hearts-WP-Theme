@@ -384,7 +384,15 @@ footer a:hover {
 }
 
 .about-desc-gold {
-	background-color: #fcdd83;
+	border: 2px solid #fcdd83;
+	border-radius: 25px;
+}
+
+.about-desc-gold-sep {
+	border-right: 2px solid #fcdd83;
+	border-left: 2px solid #fcdd83;
+	border-bottom: 2px solid #fcdd83;
+	border-radius: 0 0 25px 25px;
 }
 
 .about-desc-quote {
@@ -465,8 +473,10 @@ footer a:hover {
 #desc-5 {}
 
 /* Contact Page */
-.contact {
+#contact {
 	height: 900px;
+	
+	background-color: #fcdd83;
 }
 
 /* Media Queries */
@@ -608,6 +618,14 @@ footer a:hover {
 	
 	.about-desc {
 		width: auto;
+	}
+	
+	#desc-1 {
+		border-top: 0px;
+		/*border-right: 2px solid #fcdd83;
+		border-left: 2px solid #fcdd83;
+		border-bottom: 2px solid #fcdd83;*/
+		border-radius: 0 0 25px 25px;
 	}
 }
 

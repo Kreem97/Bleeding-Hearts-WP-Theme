@@ -38,7 +38,7 @@
 			<hr class="mobile-show"/>
 			<div class="about-right-container">
 				<div class="about-desc about-desc-red heading" id="desc-4-head">Our services include:</div>
-				<div class="about-desc about-desc-gold" id="desc-4-body">
+				<div class="about-desc about-desc-gold-sep" id="desc-4-body">
 					<ul>
 						<li>- Personal Goal Assessment</li>
 						<li>- Goal Setting</li>
@@ -48,12 +48,12 @@
 				</div>
 				<hr/>
 				<div class="about-desc about-desc-red heading" id="desc-3-head">Healing is a Process...</div>
-				<div class="about-desc about-desc-gold" id="desc-3-body">Okay so life has been overwhelming at times. We understand that the journey  for healing can be long and full of obstacles.  When I designed the Bleeding Hearts Program  I did so with You in mind.  Together we will develop a tailored program that will both be encouraging and obtainable.</div>
+				<div class="about-desc about-desc-gold-sep" id="desc-3-body">Okay so life has been overwhelming at times. We understand that the journey  for healing can be long and full of obstacles.  When I designed the Bleeding Hearts Program  I did so with You in mind.  Together we will develop a tailored program that will both be encouraging and obtainable.</div>
 				<hr/>
 				<div class="about-desc about-desc-quote heading">"My flesh and my heart faileth: but God is the strength of my heart, and my portion forever."<br/>Psalms 73:26</div>
 				<hr/>
 				<div class="about-desc about-desc-red heading" id="desc-5-head">We will address  your goals for:</div>
-				<div class="about-desc about-desc-gold" id="desc-5-body">
+				<div class="about-desc about-desc-gold-sep" id="desc-5-body">
 					<ul>
 						<li>- Financial Planning</li>
 						<li>- Career Mentoring</li>
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	<hr class="mobile-hide"/>
+	<hr/>
 </main>
 
 <?php get_footer(); ?>
