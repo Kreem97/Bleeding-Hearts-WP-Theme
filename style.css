@@ -474,10 +474,41 @@ footer a:hover {
 
 /* Contact Page */
 #contact {
-	height: 900px;
+	/*height: 900px;
+	
+	/*background-color: #fcdd83;*/
+}
+
+#contact-head {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 	background-color: #fcdd83;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
 }
+
+#contact input {
+	border: 2px solid #fcdd83;
+	transition: 0.5s;
+}
+
+#contact input[type=text]:focus {
+	border: 2px solid #fe0e0e;
+	outline: none;
+}
+
+.form-name {
+}
+
+.form-email {}
+
+.form-phone {}
+
+.form-message {}
 
 /* Media Queries */
 @media (max-width: 1200px) {
