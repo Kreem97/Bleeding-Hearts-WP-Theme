@@ -44,6 +44,11 @@ h3 {
 	margin: 0 0 10px 0;
 }
 
+label {
+	font-size: 12px;
+	color: #fe0e0e;
+}
+
 .underline {
 	margin: 0;
 	padding: 0;
@@ -479,6 +484,14 @@ footer a:hover {
 	/*background-color: #fcdd83;*/
 }
 
+#contact section {
+	margin: 20px 0 20px 0;
+}
+
+#contact section form {
+	width: 25%;
+}
+
 #contact-head {
 	height: 250px;
 	display: flex;
@@ -492,23 +505,64 @@ footer a:hover {
 }
 
 #contact input {
-	border: 2px solid #fcdd83;
+	padding: 3px;
+	margin: 0 0 16px 0;
+	width: 100%;
+	
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid #fcdd83;
 	transition: 0.5s;
+	font-size: 16px;
 }
 
 #contact input[type=text]:focus {
-	border: 2px solid #fe0e0e;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid #fe0e0e;
 	outline: none;
 }
 
-.form-name {
+#contact textarea {
+	padding: 3px;
+	margin: 0 0 16px 0;
+	width: 100%;
+	
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid #fcdd83;
+	transition: 0.5s;
+	font-size: 16px;
 }
 
-.form-email {}
+#contact textarea:focus {
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid #fe0e0e;
+	outline: none;
+}
 
-.form-phone {}
+#contact p {
+	margin: 0;
+	padding: 0;
+}
 
-.form-message {}
+#contact button {
+	border: 0;
+	background-color: #fcdd83;
+	color: white;
+	outline: none;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+#contact button:hover {
+	background-color: #fe0e0e;
+}
 
 /* Media Queries */
 @media (max-width: 1200px) {

@@ -4,39 +4,27 @@
 	<div id="contact-head">CONNECT WITH US</div>
 	
 	<section>
-		<div>
-			<form>
-				<input type="text" class="form-name" placeholder="Name" required="required"/>
-				<input type="text" class="form-email" placeholder="Email" required="required"/>
-				<input type="text" class="form-phone" placeholder="Phone" required="required"/>
-				<input type="text" class="form-message" placeholder="Message" required="required"/>
+		<form>
+			<input type="text" placeholder="Name" required="required"/><br/>
+			<input type="text" placeholder="Email" required="required"/><br/>
+			<input type="text" placeholder="Phone" required="required"/><br/>
+			<textarea rows="6" placeholder="Message" required="required"></textarea><br/>
+			<div class="btn-container">
 				<button type="submit">Send</button>
-			</form>
-		</div>
+			</div>
+		</form>
 		<div>
-			<label>Email<label/>
-			<label>bleedingheartsinc4k@gmail.com<label/>
-			<label>Phone<label/>
-			<label>(347) 581-5404<label/>
-			<label>Address<label/>
-			<label>
+			<label >EMAIL</label><br/>
+			<p>bleedingheartsinc4k@gmail.com</p><br/>
+			<label>PHONE</label><br/>
+			<p>(347) 581-5404</p><br/>
+			<label>ADDRESS</label><br/>
+			<p>
 				Bleeding Hearts, Inc.<br/>
 				P.O. Box 1246<br/>
 				Valley Steam, NY 11582
-			<label/>
+			</p>
 		</div>
-		<!-- *Left side*
-		Name *required*
-		Email *required*
-		Phone
-		Message *required*
-		-->
-		
-		<!-- *Right side*
-		Email
-		Phone
-		Address
-		-->
 	</section>
 </main>
 
