@@ -14,16 +14,25 @@
 			</div>
 		</form>
 		<div>
-			<label >EMAIL</label><br/>
-			<p>bleedingheartsinc4k@gmail.com</p><br/>
-			<label>PHONE</label><br/>
-			<p>(347) 581-5404</p><br/>
-			<label>ADDRESS</label><br/>
-			<p>
-				Bleeding Hearts, Inc.<br/>
-				P.O. Box 1246<br/>
-				Valley Steam, NY 11582
-			</p>
+			<div class="my-info">
+				<i class="fas fa-envelope"></i>
+				<!--label >EMAIL</label><br/-->
+				<p>bleedingheartsinc4k@gmail.com</p>
+			</div><br/>
+			<div>
+				<i class="fas fa-phone"></i>
+				<!--label>PHONE</label><br/-->
+				<p>(347) 581-5404</p>
+			</div><br/>
+			<div>
+				<i class="fas fa-map-marker-alt"></i>
+				<!--label>ADDRESS</label><br/-->
+				<p>
+					Bleeding Hearts, Inc.<br/>
+					P.O. Box 1246<br/>
+					Valley Steam, NY 11582
+				</p>
+			</div>
 		</div>
 	</section>
 </main>
