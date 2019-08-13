@@ -4,16 +4,11 @@
 	<div id="contact-head"><div></div><div>CONNECT WITH US</div></div>
 	
 	<section>
-		<form>
-			<input type="text" placeholder="Name" required="required"/><br/>
-			<input type="text" placeholder="Email" required="required"/><br/>
-			<input type="text" placeholder="Phone" required="required"/><br/>
-			<textarea rows="6" placeholder="Message" required="required"></textarea><br/>
-			<div class="btn-container">
-				<button type="submit">Send</button>
-			</div>
-		</form>
-		<div>
+		<?php while(have_posts()){
+			the_post();
+			the_content();
+		}?>
+		<div id="bhi-info">
 			<div class="my-info">
 				<a href="mailto:bleedingheartsinc4k@gmail.com">
 					<i class="fas fa-envelope"></i>
