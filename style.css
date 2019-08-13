@@ -489,11 +489,6 @@ footer a:hover {
 }
 
 #contact section form {
-	/*width: 25%;*/
-}
-
-#wpcf7-f14-p7-o1 {
-	margin: 0;
 	width: 25%;
 }
 
@@ -548,7 +543,7 @@ footer a:hover {
 	font-size: 16px;
 }
 
-#contact input:focus {
+#contact input[type=text]:focus {
 	border-top: 0px;
 	border-right: 0px;
 	border-left: 0px;
@@ -559,7 +554,6 @@ footer a:hover {
 #contact textarea {
 	margin: 0 0 16px 0;
 	width: 100%;
-	height: 7em;
 	
 	border-top: 0px;
 	border-right: 0px;
@@ -577,20 +571,12 @@ footer a:hover {
 	outline: none;
 }
 
-#wpcf7-f14-p7-o1 p, #wpcf7-f14-p7-o1 span, #wpcf7-f14-p7-o1 div, #wpcf7-f14-p7-o1 form {
+#contact p {
 	margin: 0;
 	padding: 0;
 }
 
-#contact .btn-container span {
-	width: 0;
-	height: 0;
-}
-
-#contact input[type=submit] {
-	margin: 0;
-	width: auto;
-	
+#contact button {
 	border: 0;
 	background-color: #fcdd83;
 	color: white;
@@ -599,7 +585,7 @@ footer a:hover {
 	transition: 0.5s;
 }
 
-#contact input[type=submit]:hover {
+#contact button:hover {
 	background-color: #fe0e0e;
 }
 
@@ -760,23 +746,14 @@ footer a:hover {
 	}
 	
 	#contact section form {
-		/*width: 50%;*/
-	}
-	
-	#wpcf7-f14-p7-o1 {
 		width: 50%;
 	}
 	
-	#bhi-info {
+	#contact section > div {
 		margin-top: 60px;
 	}
 	
 	#contact section > div > div {
-		flex-direction: column;
-		text-align: center;
-	}
-	
-	#contact section > div > div a {
 		flex-direction: column;
 	}
 	
@@ -900,10 +877,6 @@ footer a:hover {
 	
 	/*Contact Page*/
 	#contact section form {
-		/*width: 80%;*/
-	}
-	
-	#wpcf7-f14-p7-o1 {
 		width: 80%;
 	}
 }
